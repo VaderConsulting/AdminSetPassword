@@ -1,0 +1,28 @@
+[Setup]
+Password=REDACTED.example
+Client OS=4
+Domain=EXAMPLE
+Password Complexity=1
+Password Length=8
+Password Simple String = "abcdefghjklmnpqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ23456789"
+Password Complex String 1="23456789"
+Password Complex String 2="ABCDEFGHIJKLMNPRSTUVWXYZ"
+Password Complex String 3="abcdefghijkmnpqrstuvwxyz"
+Password Complex String 4="~?<>,.@#$%^&*()-=+{}[]\/"
+Standard Password=REDACTED.example
+
+[Client OS]
+WNT4Server   = 0
+WNT4WS       = 1
+WNT4TS       = 2
+W2KServer    = 3
+W2KWS        = 4
+W2KTS        = 5
+WXPClassic   = 6
+WXPDomain    = 7
+WXPWorkgroup = 8
+W2003Server  = 9
+
+[Password Complexity]
+Simple =0
+Complex=1

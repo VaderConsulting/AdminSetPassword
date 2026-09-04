@@ -1,0 +1,29 @@
+# Build / IDE
+bin/
+obj/
+.vs/
+*.suo
+*.user
+*.vbw
+*.scc
+*.vssscc
+*.vspscc
+*.exe
+*.dll
+*.ocx
+*.lib
+*.exp
+*.pdb
+*.log
+*.tmp
+*.bak
+
+# Secrets / credentials (never upload)
+*.pfx
+*.p12
+*.pem
+*.key
+.env
+
+userlist.txt
+setup.ini
